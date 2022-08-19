@@ -3,15 +3,26 @@
         <title>Random Number Generator</title>
         <meta charset="utf-8"/>
         <meta name="description" content="This is a random number generator!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <h1>Number Generator</h1>
+        <button type="button" id="butt">
+            <span class="button__text">Generate!</span>
+            <span class="button__icon">
+                <ion-icon name="dice"></ion-icon>
+            </span>
+        </button>
 
+        <hr />
+        <p>Random project made by Shawn Greene. To find other projects from me, 
+        go <a href="https://github.com/Pandaphone?tab=repositories" target="_blank">here.</a></p> 
+        
+
+        <script src="index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
-
-    <script>
-        var random = Math.floor(Math.random() * 10) +1;
-        alert(random);
-    </script>
-
 </html>
